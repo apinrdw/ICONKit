@@ -6,11 +6,11 @@ inhibit_all_warnings!
 target 'ICONKit' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-  
+
 
   # Pods for ICONKit
   pod 'secp256k1_ios'
-  pod 'scrypt_minor', '~> 1.5.1'
+  pod 'scrypt', '~> 1.5'
   pod 'Result', '~> 3.0.0'
 
 #  target 'ICONKitTests' do
